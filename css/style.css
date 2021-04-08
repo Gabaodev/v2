@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenaire{
+    font-family: ubuntu, sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    align-items: center;
+    
+}
+.navbar ul{
+    display: flex;
+    margin-right: 60px;
+}
+
+.navbar ul li{
+    margin-right: 20px;
+    padding: 5px;
+    list-style-type: none;
+}
+.navbar ul li .cta{
+    background-color: rgb(67, 67, 255);
+    padding: 7px 15px;
+    border-radius: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo h1{
+    margin-left: 60px;
+    
+}
+.logo h1 a{
+    text-decoration: none;
+    color: rgb(67, 67, 255);
+}
+.logo h1 span{
+    color: #fff;
+}
+
+.bannier{
+    height: 70vh;
+    width: 100%;
+    background-image: url(../assets/lblunk_golden_gate.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+}
+.boxx{
+    margin-top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 800px;
+    
+}
+.boite{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    
+}
+.boite span{
+    float: right;
+    font-weight: bold;
+}
+.box{
+    
+    height: 100%;
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 5px 5px 6px 0px;
+
+}
+.box2{
+    
+    height: 100%;
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 5px 5px 6px 0px;
+
+}
+.box3{
+    
+    height: 100%;
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 5px 5px 6px 0px;
+
+}
+.box4{
+    
+    height: 100%;
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 5px 5px 6px 0px;
+    
+
+}
+.box h1{
+    margin: 0;
+    color: #fff;
+    background-color: blue;
+
+}
+
+.box p{
+    margin: 5px 5px;
+    
+}
+.box p::after{
+    content: ':';
+}
+
+.box2 h1{
+    margin: 0;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.box2 p{
+    margin: 5px 5px;
+    
+}
+.box3 h1{
+    margin: 0;
+    color: #fff;
+    background-color: blue;
+
+}
+
+.box3 p{
+    margin: 5px 5px;
+    
+}
+.box4 h1{
+    margin: 0;
+    color: #fff;
+    background-color: blue;
+
+}
+
+.box4 p{
+    margin: 5px 5px;
+    
+}
+
+.box5{
+    
+    height: 100%;
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 5px 5px 6px 0px;
+    
+
+}
+.box5 h1{
+    margin: 0;
+    color: #fff;
+    background-color: blue;
+
+}
+
+.box5 p{
+    margin: 5px 5px;
+    
+}
+.box6{
+    
+    height: 100%;
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 5px 5px 6px 0px;
+}
+.box6 h1{
+    margin: 0;
+    color: #fff;
+    background-color: blue;
+
+}
+
+.box6 p{
+    margin: 5px 5px;
+    
+}
+
+
+
+
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.footer .media{
+    margin-bottom: 10px;
+}
+
+.footer .media i{
+    margin: 0 10px;
+
+}
+.footer .media .fab{
+    font-size: 30px;
+}
+.footer .media a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+.footer p{
+    color: #fff;
+}
+.footer .media a:nth-child(1):hover{
+    color: blueviolet;
+
+}
+.footer .media a:nth-child(2):hover{
+    color: rgb(59, 35, 59);
+
+}
+.footer .media a:nth-child(3):hover{
+    color: rgb(54, 224, 202);
+
+}
+.footer .media a:nth-child(4):hover{
+    color: rgb(47, 79, 255);
+
+}
+.footer .media a:nth-child(5):hover{
+    color: rgb(139, 167, 241);
+
+}
